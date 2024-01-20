@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .main{
+            text-align:center;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: rgba(0,0,0,0.5);
+            width: 40%;
+            margin: auto;
+            color: white;
+            font-size: larger;
+            box-shadow: 6px rgba(0,0,0,0.5);
+        }
+        .inner{
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        body{
+            background-image: url(https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submit</title>
+</head>
+<body>
+    <div class="main">
+        <h1 style="text-align: center; color: tomato;">Say Hello!</h1>
+        <div class="inner">
+            <p>Your name</p>
+            <input type="text" name="name" id="id" placeholder="Enter your name" size="30">
+            <p>Email</p>
+            <input type="email" name="name" id="id" placeholder="Enter your Email address" size="30">
+            <p>Needed services</p>
+            <select name="name" id="id" >
+                <option value="name">Carpenter</option>
+                <option value="name">Mason</option>
+                <option value="name">Plumber</option>
+                <option value="name">Designer</option>
+                <option value="name">Driver</option>
+                <option value="name">Maid</option>
+                <option value="name">Laundary</option>
+            </select>
+            <p>Budget</p>
+            <select name="name" id="id">
+                <option value="name">0$-10$</option>
+                <option value="name">10$-50$</option>
+                <option value="name">50$-100$</option>
+                <option value="name">100$-500$</option>
+                <option value="name">500$-above</option>
+            </select>
+            <p>Message</p>
+            <textarea name="name" id="d" cols="30" rows="10" placeholder="Your Description here"></textarea><br><br><br>
+            <input style="background-color: tomato;" type="submit" value="submit" >
+
+        </div>
+
+    </div>
+</body>
+</html>
